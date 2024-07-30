@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #240165, #05001c);
+    direction: rtl;
+    color: #fff;
+}
+.container{
+    padding: 20px 0;
+}
+.container .city{
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    border-bottom: 2px solid #6808c2c0;
+}
+.container .city h1{
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+.container .city h3{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.container .prayes{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.container .prayes .pray h3{
+    text-align: center;
+    width: 80px;
+    border-radius: 3px;
+    background-color: #6111abd3;
+    font-size: 23px;
+}
+.container .prayes .pray h4{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 600;
+    color: #05001c;
+}
+#citeys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#citeys{
+    font-size: 20px;
+    padding-left: 10px;
+}
+#city-select{
+    background: none;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-right: 10px;
+}
